@@ -118,5 +118,5 @@ line = word.decode('utf-8') + "	" + res.decode('utf-8') + \
 custom_phrase.write(line)
 custom_phrase.close()
 
-print u"成功添加：",
-print line,
+print (u"成功添加："),
+print (line),
